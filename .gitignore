@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+out/
+dist/
+.esbuild/
+
+# VSCode specific
+.vscode-test/
+.vscode/
+*.code-workspace
+
+# Mac system files
+.DS_Store
+
+# Log files
+logs/
+*.log
+
+# Coverage and debugging artifacts
+coverage/
+nyc_output/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+Thumbs.db
