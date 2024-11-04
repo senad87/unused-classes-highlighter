@@ -9,6 +9,14 @@
       "strict": true,
       "esModuleInterop": true
     },
-    "exclude": ["node_modules", ".vscode-test", "**/*.tsx", "**/*.scss"]
+    "exclude": [
+      "node_modules", 
+      ".vscode-test", 
+      "**/*.tsx", 
+      "**/*.scss", 
+      "src/tests",
+      "**/*.test.ts",
+      "**/*.test.tsx"
+    ]
   }
   
